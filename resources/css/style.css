@@ -1,0 +1,53 @@
+html{
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+body{
+  background-color: rgba(233, 227, 230, 1);
+  margin: 0;
+  padding: 0;
+}
+
+  .navbar-dark{
+    background-color: rgba(12, 27, 51, 1);
+  }
+
+    .navbar-dark .navbar-brand,
+    .navbar-dark .navbar-nav .nav-link,
+    .navbar-dark .navbar-toggler {
+      color: rgba(233, 227, 230, 1);
+    }
+
+  #about{
+    background-image: url(./images/business-computer-connection-450035.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 3.5rem;
+    height: 100%;
+    width: 100%;
+    }
+
+    #aboutme{
+      align-self: flex-end;
+      margin: 4rem 0 10rem 20rem;
+      background-color: rgba(96, 108, 56, 0.8);
+      padding: 2rem 1.5rem;
+      border-radius: 3px;
+    }
+
+      #aboutme h3{
+        margin-top: 1rem;
+        text-align: left;
+        color: rgba(233, 227, 230, 1);
+      }
+      #aboutme p{
+        text-align: left;
+        color: rgba(233, 227, 230, 1);
+      }
+        @media only screen and (max-width: 760px){
+          #aboutme p{
+            display: none;
+          }
+        }
