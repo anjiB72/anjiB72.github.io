@@ -31,7 +31,7 @@ body{
 
     #aboutme{
       align-self: flex-end;
-      margin: 4rem 0 10rem 20rem;
+      margin: 7rem 0 10rem 20rem;
       background-color: rgba(96, 108, 56, 0.8);
       padding: 2rem 1.5rem;
       border-radius: 3px;
@@ -46,8 +46,11 @@ body{
         text-align: left;
         color: rgba(233, 227, 230, 1);
       }
-        @media only screen and (max-width: 760px){
-          #aboutme p{
-            display: none;
+        @media only screen and (max-width: 770px){
+          #aboutme{
+            margin: 5rem 2rem;
           }
+            #aboutme p{
+              display: none;
+            }
         }
