@@ -6,30 +6,37 @@
     <meta name="description" content="Angela Boakes, Web Development, Portfolio">
     <title>Angela Boakes Web Development</title>
     <link rel="stylesheet" href="./resources/css/reset.css" type="text/css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/solid.css" integrity="sha384-r/k8YTFqmlOaqRkZuSiE9trsrDXkh07mRaoGBMoDcmA58OHILZPsk29i2BsFng1B" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/regular.css" integrity="sha384-IG162Tfx2WTn//TRUi9ahZHsz47lNKzYOp0b6Vv8qltVlPkub2yj9TVwzNck6GEF" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/fontawesome.css" integrity="sha384-4aon80D8rXCGx9ayDt85LbyUHeMWd3UiBaWliBlJ53yzm9hqN21A+o1pqoyK04h+" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./resources/css/style.css" type="text/css">
   </head>
 
   <body>
     <!-- NAVIGATION - FIXED-->
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
-      <a class="navbar-brand" href="index.html"><strong>Angela Boakes</strong></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+      <a class="navbar-brand" href="#"><strong>Angela Boakes</strong></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">About Me<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#skills">Skills</a>
+            <a class="nav-link" href="#skills">My Skills</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#portolio">Portfolio</a>
+            <a class="nav-link" href="#">My Portfolio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#contact">Contact Me</a>
+            <a class="nav-link" href="#">Contact Me</a>
           </li>
         </ul>
       </div>
@@ -37,24 +44,48 @@
 
     <!-- ABOUT SECTION -->
     <section id="about">
-      <div class="container container-fluid">
-        <div class="row">
-          <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-            <div id="aboutme">
-              <h3>FRONT END DEVELOPMENT</h3>
-              <p>Professional web developer & business analyst with more than 20 years’ financial services industry experience across different business areas including change & transformation, compliance, risk and operations.</p><br><p>Brings to any role an intelligent, straightforward approach with strong facilitation, communication and problem solving skills.</p>
-            </div>
+      <div class="flex-container flex-row">
+          <div id="aboutme">
+            <h3>FRONT END DEVELOPER</h3>
+            <p>Front End Developer and BCS qualified Business Analyst with over 20 years commercial experience working across many different business areas from change & transformation to customer operations.</p><p>Has the skills & knowledge to understand & manage a businesses requirements to design & deliver the most appropriate workable solution.</p>
           </div>
-        </div>
-    </div>
+      </div>
     </section>
     <section id="aboutme-mobile">
-      <p>Professional web developer & business analyst with more than 20 years’ financial services industry experience across different business areas including change & transformation, compliance, risk and operations.</p><br>
-      <p>Brings to any role an intelligent, straightforward approach with strong facilitation, communication and problem solving skills.</p>
+    <p>Front End Developer and BCS qualified Business Analyst with over 20 years commercial experience working across many different business areas from change & transformation to customer operations.</p><br><p>Has the skills & knowledge to understand & manage a businesses requirements to design & deliver the most appropriate workable solution.</p>
     </section>
-
+    
+    <!-- SKILLS SECTION -->
     <section id="skills">
+     <div class="flex-container flex-row">
+       <div class="flex-container flex-col">
+         <img src="./resources/images/iconfinder_29-screen_4243275.svg" alt="">
+         <div class="">
+           <ul>
+             <li>HTML 5</li>
+             <li>CSS3</li>
+             <li>Bootstrap</li>
+             <li>JavaScript</li>
+             <li>jQuery</li>
+           </ul>
+         </div>
+       </div>
+       <div class="flex-container flex-col">
+         <img src="./resources/images/iconfinder_Streamline-77_185097.svg" alt="">
+         <div class="">
+           <ul>
+             <li>SQL</li>
+             <li>Relational Databases</li>
+             <li></li>
+             <li></li>
+             <li></li>
+           </ul>
+         </div>
+        </div>
+       <div class="flex-container flex-col">
 
+       </div>
+     </div>
     </section>
     <section id="portfolio">
 
@@ -62,5 +93,6 @@
     <footer id="contact">
 
     </footer>
+
   </body>
 </html>
